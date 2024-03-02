@@ -7,6 +7,8 @@ from pyrogram import Client
 
 # Importing Inbuilt Packages
 import logging
+import sys
+import asyncio
 
 # Importing Credentials & Required Data
 try:
