@@ -2,7 +2,7 @@ async-lru
 certifi
 charset-normalizer
 dnspython==2.1.0
-idnal
+idna==3.3
 pyaes
 pymongo
 Pyrogram
