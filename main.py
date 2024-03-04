@@ -6,10 +6,20 @@
 from pyrogram import Client
 
 # Importing Inbuilt Packages
+from pyrogram.types import Message
+import os
+from pyrogram import Client, filters, idle
 import logging
-import sys
 import asyncio
-
+import time
+from typing import Tuple
+import shlex
+from os.path import join, exists, splitext
+from hachoir.metadata import extractMetadata
+from hachoir.parser import createParser
+import shutil
+import json
+import requests
 # Importing Credentials & Required Data
 try:
     from testexp.config import Config
