@@ -1,7 +1,7 @@
 async-lru
 certifi
 charset-normalizer
-dnspython
+dnspython==2.1.0
 idnal
 pyaes
 pymongo
